@@ -1,0 +1,33 @@
+
+header 
+{
+border: 3px black solid;
+height: 45px;
+width: 98%;
+display: flex;
+position: fixed;
+background-color:white;
+border-radius: 5px;
+box-shadow: 50% black ;
+
+}
+
+nav
+{
+    border: 3px black solid ;
+    height: 25px;
+    width: 98%;
+    display: flex;
+    position: fixed;
+    margin: 50px 0px;
+    background-color: white ;
+    border-radius: 10px;
+
+}
+
+li {
+list-style-position: initial;
+list-style:decimal;
+
+}
+
