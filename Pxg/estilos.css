@@ -1,0 +1,67 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: yellow;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: yellow;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: yellow;
+}
+
+nav li {
+  margin: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: red;
+}
+
+main {
+  padding: 20px;
+}
+
+/* Estilos para la opción de color rojo */
+body.color-rojo {
+  background-color: red;
+  color: white;
+}
+
+header.color-rojo {
+  background-color: #990000;
+}
+
+nav.color-rojo {
+  background-color: #990000;
+}
+
+/* Estilos para la opción de color amarillo */
+body.color-amarillo {
+  background-color: yellow;
+  color: black;
+}
+
+header.color-amarillo {
+  background-color: #FFD700;
+}
+
+nav.color-amarillo {
+  background-color: #FFD700;
+}
