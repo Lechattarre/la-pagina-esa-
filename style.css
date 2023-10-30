@@ -1,0 +1,41 @@
+
+header 
+{
+border: 3px black solid;
+height: 45px;
+width: 98%;
+display: flex;
+position: fixed;
+background-color:white;
+border-radius: 5px;
+box-shadow: 50% black ;
+
+}
+
+nav
+{
+    border: 3px black solid ;
+    height: 25px;
+    width: 50%;
+    display: flex;
+    position: fixed;
+    margin: 5px 0px 0px 0px;
+    background-color: white ;
+    border-radius: 10px;
+
+}
+
+footer {
+
+    border: 3px black solid;
+    height: 45px;
+    width: 98%;
+    display: flex;
+    position: sticky;
+    background-color:white;
+    border-radius: 5px;
+    margin: 240px 0px 0px 0px;
+    box-shadow: 50% black ;
+    
+}
+
