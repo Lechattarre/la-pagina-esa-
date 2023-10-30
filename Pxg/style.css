@@ -16,18 +16,26 @@ nav
 {
     border: 3px black solid ;
     height: 25px;
-    width: 98%;
+    width: 50%;
     display: flex;
     position: fixed;
-    margin: 50px 0px;
+    margin: 5px 0px 0px 0px;
     background-color: white ;
     border-radius: 10px;
 
 }
 
-li {
-list-style-position: initial;
-list-style:decimal;
+footer {
 
+    border: 3px black solid;
+    height: 45px;
+    width: 98%;
+    display: flex;
+    position: fixed;
+    background-color:white;
+    border-radius: 5px;
+    margin: 240px 0px 0px 0px;
+    box-shadow: 50% black ;
+    
 }
 
