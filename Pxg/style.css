@@ -31,7 +31,7 @@ footer {
     height: 45px;
     width: 98%;
     display: flex;
-    position: fixed;
+    position: sticky;
     background-color:white;
     border-radius: 5px;
     margin: 240px 0px 0px 0px;
