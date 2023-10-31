@@ -7,8 +7,18 @@ width: 98%;
 display: flex;
 position: fixed;
 background-color:white;
-border-radius: 5px;
-box-shadow: 50% black ;
+-webkit-box-shadow: 1px 1px 34px #EE82EE;
+-moz-box-shadow: 1px 1px 34px #EE82EE;
+box-shadow: 1px 1px 34px #EE82EE;
+padding: 10px;
+font-family: Verdana, Geneva, sans-serif;
+font-size: 12pt;
+border-radius: 12px;
+text-shadow: 5px 5px 21px #f72710;
+padding: 10px;
+font-family: Verdana, Geneva, sans-serif;
+font-size: 12pt;
+
 
 
 }
@@ -20,9 +30,15 @@ nav
     width: 50%;
     display: flex;
     position: fixed;
-    margin: 5px 0px 0px 0px;
+    margin: 40px 0px 0px 0px;
     background-color: white ;
-    border-radius: 10px;
+    -webkit-box-shadow: 1px 1px 34px #EE82EE;
+    -moz-box-shadow: 1px 1px 34px #EE82EE;
+    box-shadow: 1px 1px 34px #EE82EE;
+    padding: 10px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12pt;
+    border-radius: 12px;
 
 }
 
@@ -37,6 +53,11 @@ footer {
     border-radius: 5px;
     margin: 240px 0px 0px 0px;
     box-shadow: 50% black ;
+    text-shadow: 5px 5px 21px #EE82EE;
+    padding: 10px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12pt;
+
     
 }
 
@@ -56,22 +77,27 @@ margin:25px 0px 0px 0px ;
     background-color: pink;
 }
 
-.sidebarcoso
-{
-    position: fixed;
-    left: 0;
-    width: 250px;
-    height: 100%;
-    background-color: pink;
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
 
 }
-
 .headerprinc
 {
     position: fixed;
     left: 0;
-    width: 250px;
+    width: 180px;
     height: 100%;
-    background-color: pink;
+    background-color: pink; 
 
+}
+
+.sidebar header{
+    font-size: 22px;
+    color: black;
+    text-align: center;
+    line-height: 70px;
+    background: palegoldenrod;
 }
