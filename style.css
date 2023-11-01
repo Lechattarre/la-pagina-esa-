@@ -63,15 +63,14 @@ footer {
 
 .divog
 {
-    /* Estilos para la barra lateral */
+    
 .sidebar {
-    background: #333; /* Color de fondo */
+    background: #333; 
     color: white;
     text-align: center;
     padding: 10px;
 }
 
-/* Estilos para el menú */
 ul {
     list-style: none;
     padding: 0;
@@ -80,11 +79,11 @@ ul {
 li {
     margin: 0;
     padding: 0;
-    transition: transform 0.3s; /* Agrega una transición para la propiedad 'transform' */
+    transition: transform 0.3s;
 }
 
 li:hover {
-    transform: translateX(10px); /* Aplica un desplazamiento horizontal al pasar el mouse */
+    transform: translateX(10px); 
 }
 
 }
