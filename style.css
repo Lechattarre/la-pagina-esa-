@@ -1,57 +1,27 @@
 
 header
 {
-border: 3px black solid;
-height: 45px;
-width: 98%;
-display: flex;
+border: 2px black solid;
+height: 840px;
+width: 20%;
+display: flexbox;
 position: fixed;
-background-color:white;
--webkit-box-shadow: 1px 1px 34px #EE82EE;
--moz-box-shadow: 1px 1px 34px #EE82EE;
-box-shadow: 1px 1px 34px #EE82EE;
-padding: 10px;
-font-family: Verdana, Geneva, sans-serif;
-font-size: 12pt;
-border-radius: 12px;
-text-shadow: 5px 5px 21px #f72710;
-padding: 10px;
-font-family: Verdana, Geneva, sans-serif;
-font-size: 12pt;
+background-color:white ;
+border-radius: 20px; 
+font-size: 15pt;
 
 
 
-}
+}footer {
 
-nav
-{
-    border: 3px black solid ;
-    height: 25px;
-    width: 50%;
-    display: flex;
-    position: fixed;
-    margin: 40px 0px 0px 0px;
-    background-color: white ;
-    -webkit-box-shadow: 1px 1px 34px #EE82EE;
-    -moz-box-shadow: 1px 1px 34px #EE82EE;
-    box-shadow: 1px 1px 34px #EE82EE;
-    padding: 10px;
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 12pt;
-    border-radius: 12px;
-
-}
-
-footer {
-
-    border: 3px black solid;
-    height: 45px;
-    width: 98%;
+    border: 2px black solid;
+    height: 10px;
+    width: 100%;
     display: flex;
     position: sticky;
-    background-color:white;
+    background-color:  white;
     border-radius: 5px;
-    margin: 240px 0px 0px 0px;
+    margin: 600px 0px 0px 0px;
     box-shadow: 50% black ;
     text-shadow: 5px 5px 21px #EE82EE;
     padding: 10px;
@@ -71,10 +41,9 @@ margin:25px 0px 0px 0p
 .sidebar {
 
     position: fixed;
-    left: 0;
-    width: 250px;
-    height: 100%;
-    background-color: pink;
+    width: 1px;
+    height: 1%;
+    background-color:white;
 }
 
 *{
@@ -90,14 +59,6 @@ margin:25px 0px 0px 0p
     left: 0;
     width: 180px;
     height: 100%;
-    background-color: pink; 
+    background-color: black; 
 
-}
-
-.sidebar header{
-    font-size: 22px;
-    color: black;
-    text-align: center;
-    line-height: 70px;
-    background: palegoldenrod;
 }
