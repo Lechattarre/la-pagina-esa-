@@ -9,12 +9,12 @@ body {
 
 header {
   background-color: yellow;
-  padding: 20px;
+  padding: 2px;
   text-align: center;
 }
 
 nav {
-  background-color: yellow;
+  background-color: yellowgreen;
 }
 
 nav ul {
@@ -31,17 +31,17 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: red;
+  color: blue;
 }
 
 main {
-  padding: 20px;
+  padding: 2px;
 }
 
 /* Estilos para la opción de color rojo */
 body.color-rojo {
-  background-color: red;
-  color: white;
+  background-color: none;
+  color: green;
 }
 
 header.color-rojo {
