@@ -1,0 +1,128 @@
+
+
+.headerarr
+{
+    border: 3px solid rgb(104, 202, 187);
+    border-style: groove;
+    height: 78px;
+    background-color: rgb(192, 255, 219);
+    position:static;
+    width: 100%;
+    text-align: right;
+    padding-right: 50px;
+    font-size: larger;
+    
+}
+
+
+/* TODO EL CODIGO DE LA SIDEBAR */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.sidebar {
+    position: fixed;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: pink ;
+    transition: all .5s ease;
+
+}
+
+.sidebar header {
+
+    font-size: 22px ;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: rgb(202, 104, 121);
+    user-select: none;
+
+}
+
+.sidebar ul a{
+    padding-left: 50px;
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: black;
+    box-sizing: border-box;
+    border-top
+    : 1px solid rgba(255,255,255,1);
+    border: 1px solid rgb(202, 104, 121);
+    transition: .4s;
+}
+
+ul li:hover a{
+    padding-left: 150px;
+
+}
+
+.sidebar ul a i {
+    margin-right: 16px;
+
+
+
+}
+
+#check {
+ display: none;
+}
+
+label #btn, label #canc {
+    position: absolute;
+    cursor: pointer;
+    background-color:rgb(202, 104, 121);
+    border-radius: 2px;
+
+
+}
+label #btn{
+    left: 25px;
+    top: 15px;
+    font-size: 35px;
+    color: white;
+    padding: 6px 8px;
+    transition: all .5s;
+    position: fixed;
+}
+
+label #canc {
+    z-index: 1111;
+    left: -195px;
+    top: 17px;
+    font-size: 30px;
+    color: white;
+    padding: 3px 9px;
+    transition: all .5s ease;
+    position: fixed;
+
+}
+
+#check:checked ~ .sidebar{
+
+left: 0;
+}
+
+#check:checked ~ label #btn{
+
+    left: 250px;
+    opacity: 0;
+    pointer-events: none;
+    }
+
+    #check:checked ~ label #canc{
+
+        left: 195px;
+       
+        }
