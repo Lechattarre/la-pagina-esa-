@@ -1,5 +1,11 @@
 
+i {
+color: white ;
+font-size: 12px;
+list-style: circle;
+list-style-position: outside;
 
+}
 .headerarr
 {
     height: 75px;
@@ -55,6 +61,9 @@ z-index: 5;
 }
 
 div {
+
+    border: 2px black solid;
+      
     
 }
 
