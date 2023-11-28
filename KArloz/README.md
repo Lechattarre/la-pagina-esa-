@@ -17,3 +17,5 @@ tengo un problema con el header nuevo que hice en el DIV 1 para la side bar}
 
 
 edicion de css liveweave.com css 
+
+https://scratch.mit.edu/projects/13895241/editor/
